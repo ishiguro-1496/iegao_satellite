@@ -119,14 +119,15 @@
 }
 #new_posts h1 {
   padding: 16px 8px 16px 24px;
-  height: 64px;
+  height: 56px;
   border-bottom: solid gray 1px;
   vertical-align: middle;
   font-size: 16px;
 }
 #new_posts h1 img {
   width: 24px;
-  height: auto;
+  height: 24px;
+  object-fit: contain;
   vertical-align: middle;
   margin-right: 16px;
 }
@@ -159,14 +160,15 @@
 }
 #news h1 {
   padding: 16px 8px 16px 24px;
-  height: 64px;
+  height: 56px;
   border-bottom: solid gray 1px;
   vertical-align: middle;
   font-size: 16px;
 }
 #news h1 img {
   width: 24px;
-  height: auto;
+  height: 24px;
+  object-fit: contain;
   vertical-align: middle;
   margin-right: 16px;
 }
@@ -189,14 +191,15 @@
 }
 #pickups h1 {
   padding: 16px 8px 16px 24px;
-  height: 64px;
+  height: 56px;
   border-bottom: solid gray 1px;
   vertical-align: middle;
   font-size: 16px;
 }
 #pickups h1 img {
   width: 24px;
-  height: auto;
+  height: 24px;
+  object-fit: contain;
   vertical-align: middle;
   margin-right: 16px;
 }
@@ -275,14 +278,15 @@
 }
 #keyword h1 {
   padding: 16px 8px 16px 24px;
-  height: 64px;
+  height: 56px;
   border-bottom: solid gray 1px;
   vertical-align: middle;
   font-size: 16px;
 }
 #keyword h1 img {
   width: 24px;
-  height: auto;
+  height: 24px;
+  object-fit: contain;
   vertical-align: middle;
   margin-right: 16px;
 }
@@ -313,14 +317,15 @@
 }
 #ranking h1 {
   padding: 16px 8px 16px 24px;
-  height: 64px;
+  height: 56px;
   border-bottom: solid gray 1px;
   vertical-align: middle;
   font-size: 16px;
 }
 #ranking h1 img {
   width: 24px;
-  height: auto;
+  height: 24px;
+  object-fit: contain;
   vertical-align: middle;
   margin-right: 16px;
 }
@@ -340,6 +345,10 @@
 
 #contact p {
   padding: 20px 0px;
+}
+
+#all_news {
+  padding: 4%;
 }
 
 #footer_wrap {
@@ -373,14 +382,15 @@
 }
 #posts_bg h1 {
   padding: 16px 8px 16px 24px;
-  height: 64px;
+  height: 56px;
   border-bottom: solid gray 1px;
   vertical-align: middle;
   font-size: 16px;
 }
 #posts_bg h1 img {
   width: 24px;
-  height: auto;
+  height: 24px;
+  object-fit: contain;
   vertical-align: middle;
   margin-right: 16px;
 }
@@ -391,7 +401,7 @@
 
 #single_title {
   padding: 16px 8px 16px 24px;
-  height: 64px;
+  height: 56px;
   border-bottom: solid gray 1px;
   vertical-align: middle;
   font-size: 16px;
@@ -399,7 +409,8 @@
 }
 #single_title img {
   width: 24px;
-  height: auto;
+  height: 24px;
+  object-fit: contain;
   vertical-align: middle;
   margin-right: 16px;
 }
@@ -473,11 +484,6 @@
     margin: 0% auto;
     width: 88%;
     flex-direction: column;
-  }
-
-  #posts {
-    flex-basis: 98%;
-    margin: auto;
   }
 
   #posts_block {

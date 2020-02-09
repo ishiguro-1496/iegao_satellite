@@ -12,13 +12,14 @@
 @mixin title{
 
 	padding:16px 8px 16px 24px;
-	height: 64px;
+	height: 56px;
 	border-bottom:solid gray 1px;
 	vertical-align: middle;
 	font-size: $fontsize_mm;
 	img {
 		width:24px;
-		height:auto;
+		height:24px;
+		object-fit: contain;
 		vertical-align: middle;
 		margin-right: 16px;
 	}
@@ -411,9 +412,11 @@ $fontsize_ll:20px;
 
 
 
+// ------------all_news--------------
 
-
-
+#all_news{
+	padding:4%;
+}
 
 
 
@@ -587,8 +590,8 @@ $fontsize_ll:20px;
 	}
 
 	#posts{
-		flex-basis: 98%;
-		margin: auto;
+		// flex-basis: 98%;
+		// margin: auto;
 	}
 	#posts_block{
 		flex-direction: column;

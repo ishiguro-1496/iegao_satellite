@@ -28,7 +28,7 @@
 			if ( $the_query->have_posts() ) :
 				while ( $the_query->have_posts() ) : $the_query->the_post();
 			?>
-				<div >
+				<div id="all_news">
 					<a href="<?php the_permalink() ?>">
 						<P>
 							<?php echo get_the_date(); ?>
