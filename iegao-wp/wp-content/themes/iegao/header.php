@@ -24,17 +24,17 @@
 				</a>
 			</div>
 			<div>
-				<a href="http://iegao-wp.com/コラム一覧/">
+				<a href="#">
 				<p><img src="<?php bloginfo('template_directory'); ?>/img/all_posts.jpg">コラム一覧</p>
 				</a>
 			</div>
 			<div>
-				<a href="http://iegao-wp.com/お知らせ一覧/">
+				<a href="#">
 				<p><img src="<?php bloginfo('template_directory'); ?>/img/news.jpg">お知らせ一覧</p>
 				</a>
 			</div>
 			<div>
-				<a href="http://iegao-wp.com/お問い合わせ/">
+				<a href="#">
 				<p><img src="<?php bloginfo('template_directory'); ?>/img/contact.jpg">お問い合わせ</p>
 				</a>
 			</div>

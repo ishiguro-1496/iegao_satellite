@@ -22,16 +22,20 @@
 				<h1><img src="<?php bloginfo('template_directory'); ?>/img/ranking.jpg">検索ワードランキング</h1>
 				<?php
 				$args = array(
-				    'orderby' => 'name',
-				    'order' => 'ASC',
-				    'posts_per_page' => 3
+				    'orderby' => 'count',
+				    'order' => 'DESC',
+				    'number' => 3	
 				);
+
+				$i = 3;
+
 				$posttags = get_tags( $args );
+
 
 				if ( $posttags ){
 					echo ' <ul> ';
 					foreach( $posttags as $tag ) {
-						echo '<li><a href="'. get_tag_link( $tag->term_id ) . '"><span>1</span>' . $tag->name . '</a></li>';
+						echo '<li><a href="'. get_tag_link( $tag->term_id ) . '"><span></span>' . $tag->name . '</a></li>';
 					}
 					echo ' </ul> ';
 				}

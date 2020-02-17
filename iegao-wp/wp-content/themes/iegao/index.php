@@ -8,16 +8,17 @@
 		<!-- posts -->
 		<div id="posts">
 				  <div id="new_posts">
-					<h1><img src="<?php bloginfo('template_directory'); ?>/img/new.jpg">新着コラム</h1>
+					<h1>
+						<img src="<?php bloginfo('template_directory'); ?>/img/new.jpg">新着コラム
+					</h1>
 					<div id="posts_block">
 						<?php
 						$new_posts = get_posts(array(
-						    'post_type' => 'post', // 投稿タイプ
-						    'category' => 5, // カテゴリIDを番号で指定する場合
-						    'category_name' => 'new', // カテゴリをスラッグで指定する場合
-						    'posts_per_page' => 3, // 表示件数
-						    'orderby' => 'date', // 表示順の基準
-						    'order' => 'DESC' // 昇順・降順
+						    'post_type' => 'post', 
+						    'category_name' => 'new', 
+						    'posts_per_page' => 3, 
+						    'orderby' => 'date', 
+						    'order' => 'DESC' 
 						));
 						global $post;
 						if($new_posts): foreach($new_posts as $post): setup_postdata($post); ?>
@@ -26,9 +27,10 @@
 									<?php the_post_thumbnail('new_posts_thumbnail');?>
 								</a>
 								<h2><?php echo get_the_date(); ?></h2>
-								<a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
+								<a href="<?php the_permalink(); ?>">
+								<h3><?php the_title(); ?></h3>
+								</a>
 							</div>
-
 						<?php endforeach; endif; wp_reset_postdata(); ?>
 					</div>
 				</div>
@@ -44,11 +46,11 @@
 					<ul class="news_content">
 					<?php foreach ($posts as $post):setup_postdata($post); ?>
 							 
-						<!-- ループはじめ -->
+					
 						
 						<a href="<?php the_permalink() ?>"><P> <?php echo get_the_date(); ?>    <?php the_title();?>   <span>NEW!</span></P></a>
 					
-						<!-- ループおわり -->
+
 					<?php endforeach; ?>
 					<?php wp_reset_postdata(); ?>
 					<?php endif; ?>
@@ -65,12 +67,11 @@
 				<div id="pickup_post_wrapper">
 					<?php
 						$pickup_posts = get_posts(array(
-						    'post_type' => 'post', // 投稿タイプ
-						    'category' => 4, // カテゴリIDを番号で指定する場合
-						    'category_name' => 'pickup', // カテゴリをスラッグで指定する場合
-						    'posts_per_page' => 5, // 表示件数
-						    'orderby' => 'date', // 表示順の基準
-						    'order' => 'DESC' // 昇順・降順
+						    'post_type' => 'post',
+						    'category_name' => 'pickup', 
+						    'posts_per_page' => 5, 
+						    'orderby' => 'date', 
+						    'order' => 'DESC' 
 						));
 						global $post;
 						if($pickup_posts): foreach($pickup_posts as $post): setup_postdata($post); ?>
