@@ -52,7 +52,6 @@
 	           	</div>
 				</article>
 				<?php endif; ?>
-
 			</div>
 
 

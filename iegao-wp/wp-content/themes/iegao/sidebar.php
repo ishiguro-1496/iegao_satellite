@@ -35,7 +35,10 @@
 				if ( $posttags ){
 					echo ' <ul> ';
 					foreach( $posttags as $tag ) {
-						echo '<li><a href="'. get_tag_link( $tag->term_id ) . '"><span></span>' . $tag->name . '</a></li>';
+						echo '<li>
+						<a href="'. get_tag_link( $tag->term_id ) . '"><span>1</span>' . $tag->name . '
+						</a>
+						</li>';
 					}
 					echo ' </ul> ';
 				}

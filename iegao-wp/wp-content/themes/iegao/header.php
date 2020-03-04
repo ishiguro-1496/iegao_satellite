@@ -24,17 +24,17 @@
 				</a>
 			</div>
 			<div>
-				<a href="#">
+				<a href="https://nensyu-kodate.jp/?page_id=66">
 				<p><img src="<?php bloginfo('template_directory'); ?>/img/all_posts.jpg">コラム一覧</p>
 				</a>
 			</div>
 			<div>
-				<a href="#">
+				<a href="https://nensyu-kodate.jp/?page_id=68">
 				<p><img src="<?php bloginfo('template_directory'); ?>/img/news.jpg">お知らせ一覧</p>
 				</a>
 			</div>
 			<div>
-				<a href="#">
+				<a href="https://nensyu-kodate.jp/?page_id=70">
 				<p><img src="<?php bloginfo('template_directory'); ?>/img/contact.jpg">お問い合わせ</p>
 				</a>
 			</div>
