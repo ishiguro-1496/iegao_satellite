@@ -21,7 +21,7 @@
 				'paged' => $paged,
 				'orderby' => 'post_date',
 				'order' => 'DESC',
-				'format' => '&paged=%#%',
+				'format' => '../?cat=1&paged=%#%',
 				'post_type' => 'post',
 				'post_status' => 'publish'
 
