@@ -431,7 +431,7 @@
   margin: 24px 0px;
 }
 #posts_body h3 {
-  font-size: 20px;
+  font-size: 14px;
   border-left: 2px solid;
   margin: 24px 0px;
   padding-left: 10px;
@@ -440,7 +440,7 @@
   color: #0B0039;
 }
 #posts_body h4 {
-  font-size: 20px;
+  font-size: 14px;
   padding: 8px 0px;
 }
 #posts_body h5 {
@@ -574,10 +574,10 @@
     font-size: 18px;
   }
   #posts_body h3 {
-    font-size: 18px;
+    font-size: 14px;
   }
   #posts_body h4 {
-    font-size: 16px;
+    font-size: 14px;
     padding: 4px 0px;
   }
   #posts_body img {

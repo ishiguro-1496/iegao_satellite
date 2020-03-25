@@ -485,7 +485,7 @@ $fontsize_ll:20px;
 	}
 
 	h3{
-		font-size: $fontsize_ll;
+		font-size: $fontsize_m;
 	    border-left: 2px solid;
 	    margin: 24px 0px;
 	    padding-left: 10px;
@@ -494,7 +494,7 @@ $fontsize_ll:20px;
 	    color:$title_color;
 	}
 	h4{
-		font-size: $fontsize_ll;
+		font-size: $fontsize_m;
 		padding:8px 0px;
 	}
 
@@ -665,10 +665,10 @@ $fontsize_ll:20px;
 
 		}
 		h3{
-			font-size: $fontsize_l;
+			font-size: $fontsize_m;
 		}
 		h4{
-			font-size: $fontsize_mm;
+			font-size: $fontsize_m;
 			padding:4px 0px;
 		}
 

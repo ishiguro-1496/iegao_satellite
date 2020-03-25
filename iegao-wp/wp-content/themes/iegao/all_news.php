@@ -17,7 +17,7 @@
 			<?php
 			$paged = (int) get_query_var('paged');
 			$args = array(
-				'posts_per_page' => 5,
+				'posts_per_page' => 7,
 				'paged' => $paged,
 				'orderby' => 'post_date',
 				'order' => 'DESC',
@@ -39,7 +39,6 @@
 			<?php endwhile; endif; ?>
 
 			<div id="page_nation">
-
 			<?php
 			if ($the_query->max_num_pages > 1) {
 				echo paginate_links(array(
