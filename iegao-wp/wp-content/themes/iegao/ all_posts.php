@@ -21,8 +21,10 @@
 				'paged' => $paged,
 				'orderby' => 'post_date',
 				'order' => 'DESC',
+				'format' => '&paged=%#%',
 				'post_type' => 'post',
 				'post_status' => 'publish'
+
 			);
 			$the_query = new WP_Query($args);
 			if ( $the_query->have_posts() ) :
