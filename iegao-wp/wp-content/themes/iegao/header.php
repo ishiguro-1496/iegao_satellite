@@ -2,7 +2,8 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title><?php bloginfo("name"); ?></title>
+<title>年収350万円で戸建てを建てるには。</title>
+<meta name="keywords" content="マイホーム 年収350万円 中古住宅 家を建てる 住宅ローン 注文住宅　購入の流れ"/>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/reset.css" type="text/css"/>
 <link rel="stylesheet"  href="<?php echo get_stylesheet_uri(); ?>">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
